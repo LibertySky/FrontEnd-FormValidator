@@ -69,7 +69,7 @@ function getFieldName(input) {
 	return input.id.charAt(0).toUpperCase() + input.id.slice(1);
 }
 
-form.addEventListener('focusout', (e) => {
+form.addEventListener('focusout', () => {
 	checkRequired([username, email, password, password2]);
 	checkLength(username, 3, 15);
 	checkLength(password, 6, 25);
