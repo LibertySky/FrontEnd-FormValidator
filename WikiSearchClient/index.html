@@ -14,7 +14,8 @@
 			href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
 			rel="stylesheet"
 		/>
-		<link rel="stylesheet" href="../css/style.min.css" />
+		<link rel="stylesheet" href="./css/style.min.css" />
+		<script src="./js/main.js" type="module"></script>
 		<title>WikiSearch</title>
 	</head>
 	<body>
@@ -61,11 +62,11 @@
 				<h2 class="offscreen">Search Results</h2>
 				<div class="statsBar">
 					<div class="stats" id="stats" aria-live="assertive">
-						Found 11 results
+						<!-- Found 10 articles -->
 					</div>
 				</div>
 				<div class="searchResults" id="searchResults">
-					<div class="resultItem">
+					<!-- <div class="resultItem">
 						<div class="resultTitle">
 							<a href="#" target="_blank" rel="noopener noreferrer">Title</a>
 						</div>
@@ -95,12 +96,20 @@
 								</p>
 							</div>
 						</div>
-					</div>
+					</div> -->
 				</div>
 			</section>
 		</main>
 		<footer>
-			<p>Powered by Wikipedia</p>
+			<p>
+				Powered by
+				<a
+					href="https://www.wikipedia.org/"
+					target="_blank"
+					rel="noopener noreferrer"
+					>Wikipedia</a
+				>
+			</p>
 			<p>
 				Created by
 				<a
@@ -111,6 +120,5 @@
 				>
 			</p>
 		</footer>
-		<script src="./app.js"></script>
 	</body>
 </html>

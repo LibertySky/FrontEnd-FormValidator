@@ -16,10 +16,10 @@
 
 .exclaim {
 	display: inline-block;
-	font-size: 6.5rem;
+	font-size: 3.5rem;
 	transform: rotate(12deg);
 	@include mq(768px) {
-		font-size: 1rem;
+		font-size: 6.5rem;
 	}
 }
 
