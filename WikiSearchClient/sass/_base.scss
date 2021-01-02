@@ -47,24 +47,25 @@ body {
 	width: 100vw;
 	min-height: 100vh;
 	font-family: $font-stack;
-	font-size: 21px;
+	font-size: 10px;
 }
 
 main {
 	@include flexColumn;
-	min-height: calc(100vh-60px);
+	min-height: calc(100vh-6rem);
 }
 
 footer {
 	width: 100%;
-	height: 60px;
+	height: 6rem;
 	@include flexCenter;
+	flex-direction: column;
 
 	p {
 		color: $stats-color;
-		font-size: 0.5rem;
+		font-size: 1rem;
 		@include mq(768px) {
-			font-size: 1rem;
+			font-size: 1.2rem;
 		}
 
 		a {

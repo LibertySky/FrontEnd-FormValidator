@@ -1,16 +1,16 @@
 .searchEntry {
 	@include flexColumn;
-	padding-top: 40px;
+	padding-top: 4rem;
 
 	.logo {
-		letter-spacing: -5px;
-		font-size: 2rem;
+		letter-spacing: -0.5rem;
+		font-size: 4rem;
 		font-weight: 500;
 		margin-bottom: 0.5rem;
 
 		@include mq(768px) {
-			font-size: 4rem;
-			letter-spacing: -10px;
+			font-size: 6rem;
+			letter-spacing: -0.8rem;
 		}
 	}
 
@@ -19,7 +19,7 @@
 		display: flex;
 		border: 2px solid $search-bar-border;
 		border-radius: 500px;
-		padding: 0.15rem 0.25rem 0.15rem 0.75rem;
+		padding: 0.5rem 0.25rem 0.25rem 1.5rem;
 
 		@include mq(768px) {
 			width: 80vw;
@@ -32,12 +32,12 @@
 
 		input[type='text'] {
 			flex-grow: 1;
-			font-size: 0.75rem;
+			font-size: 1.4rem;
 			text-align: left;
 			letter-spacing: 0.1rem;
 			border: none;
 			outline: none;
-			min-width: 150px;
+			min-width: 14rem;
 
 			@include mq(768px) {
 				font-size: 1.25rem;
@@ -48,17 +48,17 @@
 			border: none;
 			outline: none;
 			background: transparent;
-			min-width: 48px;
-			min-height: 48px;
+			min-width: 5rem;
+			min-height: 5rem;
 
 			i {
 				font-family: 'Font Awesome 5 Free';
-				font-size: 1rem;
+				font-size: 2.5rem;
 				color: $stats-color;
 				transition: all 0.3s;
 
 				@include mq(768px) {
-					font-size: 1.5rem;
+					font-size: 2.5rem;
 				}
 			}
 		}
@@ -66,7 +66,7 @@
 		.button:hover,
 		.button:focus {
 			i {
-				font-size: 1.1rem;
+				font-size: 2.6rem;
 				padding-bottom: 0.5rem;
 				border-bottom-width: 1px;
 				border-bottom-style: solid;
